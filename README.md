@@ -1,4 +1,4 @@
-datapack-template
+worldgen-void
 ==
 
 ## Features
