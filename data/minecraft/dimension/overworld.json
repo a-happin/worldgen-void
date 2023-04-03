@@ -1,11 +1,11 @@
 {
   "generator": {
-    "type": "minecraft:flat",
+    "type": "flat",
     "seed": 0,
     "settings": {
       "lakes": false,
       "features": false,
-      "biome": "minecraft:the_void",
+      "biome": "the_void",
       "structures": {
           "structures": {
           }
@@ -14,5 +14,5 @@
       "layers": []
     }
   },
-  "type": "minecraft:overworld"
+  "type": "overworld"
 }
