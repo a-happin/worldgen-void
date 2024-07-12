@@ -1,6 +1,18 @@
 {
   "pack": {
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 48
+    },
     "pack_format": 15,
     "description": ""
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": 48,
+        "directory": "1.21"
+      }
+    ]
   }
 }
