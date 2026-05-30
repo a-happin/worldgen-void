@@ -2,7 +2,7 @@ OUTDIR=./build
 OUTDIR_DATAPACKS=$(OUTDIR)/datapacks
 OUTDIR_RESOURCEPACKS=$(OUTDIR)/resourcepacks
 
-PROJECT_NAME=$(shell basename $(shell cd ..; pwd))
+PROJECT_NAME=$(shell basename $(shell realpath ..))
 GIT_TAG=$(shell git describe --tags --abbrev=0 --always)
 TARGET=$(OUTDIR)/$(PROJECT_NAME)_$(GIT_TAG).zip
 
