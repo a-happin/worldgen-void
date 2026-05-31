@@ -15,7 +15,7 @@ gamerule spawn_patrols false
 gamerule spawn_phantoms false
 gamerule spawn_wandering_traders false
 
-teleport @a 8 -60 8
+teleport @a ~ -60 ~
 
 datapack disable "file/worldgen-void"
 datapack disable "file/worldgen-void.zip"
