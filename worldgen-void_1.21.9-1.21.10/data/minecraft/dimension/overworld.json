@@ -1,0 +1,18 @@
+{
+  "generator": {
+    "type": "flat",
+    "seed": 0,
+    "settings": {
+      "lakes": false,
+      "features": false,
+      "biome": "the_void",
+      "structures": {
+          "structures": {
+          }
+      },
+      "structure_overrides": [],
+      "layers": []
+    }
+  },
+  "type": "overworld"
+}
