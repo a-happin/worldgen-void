@@ -16,6 +16,7 @@ gamerule spawn_phantoms false
 gamerule spawn_wandering_traders false
 
 teleport @a ~ -60 ~
+tellraw @a [{"text": "If you are in version 26.1 or later, please edit the file "}, {"text": "./data/minecraft/world_gen_settings.dat", "color": "green"}, {"text": " as a bug prevents the worldgen settings from being copied."}]
 
 datapack disable "file/worldgen-void"
 datapack disable "file/worldgen-void.zip"
